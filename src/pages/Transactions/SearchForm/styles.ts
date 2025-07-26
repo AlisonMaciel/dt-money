@@ -1,4 +1,16 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const SearchFormAnimation = keyframes`
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+`
 
 export const SearchFormContainer = styled.form`
   width: 100%;
@@ -44,4 +56,6 @@ export const SearchFormContainer = styled.form`
       color: ${props => props.theme['white']};
     }
   }
+
+  animation: ${SearchFormAnimation} ease-in-out 900ms;
 `

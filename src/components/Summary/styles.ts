@@ -1,4 +1,16 @@
-import styled, { css } from "styled-components";
+import styled, { css, keyframes } from "styled-components";
+
+const SummaryCardAnimation = keyframes`
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+`
 
 export const SummaryContainer = styled.section`
   width: 100%;
@@ -38,5 +50,7 @@ export const SummaryCard = styled.div<SummaryCardProps>`
   ${props => props.variant == 'green' && css`
     background-color: ${props.theme['green-700']};
   `}
+  
+  animation: ${SummaryCardAnimation} ease-in 850ms ;
 `
 

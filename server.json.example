@@ -1,0 +1,14 @@
+Onde é transactions esse é o nome da sua roda (endpoint), você pode trocar para o que preferir, lembre também de preencher os outros campos! Valeu por testar 👊.
+
+{
+  "transactions": [
+    {
+      "id": "1",
+      "description": "Sorvete",
+      "type": "income",
+      "category": "Alimentação",
+      "price": 14,
+      "createdAt": "Tue Jul 01 2025 09:59:44 GMT-0300"
+    }
+  ]
+}
