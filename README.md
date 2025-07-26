@@ -31,7 +31,7 @@ Além disso, o projeto é <strong>totalmente acessível</strong>, graças ao uso
 <ol>
   <li>Clone o repositório</li>
   <li>No terminal, execute:
-    <pre><code>npm install<br>npm run dev</code></pre>
+    <pre><code>npm install <br> npm run dev</code></pre>
   </li>
   <li>Para iniciar a API local com o JSON Server, rode:
     <pre><code>npm run dev-server</code></pre>
