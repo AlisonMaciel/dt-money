@@ -1,0 +1,28 @@
+{
+  "transactions": [
+    {
+      "id": "1",
+      "description": "Sorvete",
+      "type": "income",
+      "category": "Alimentação",
+      "price": 14,
+      "createdAt": "Tue Jul 01 2025 09:59:44 GMT-0300"
+    },
+    {
+      "id": "d121",
+      "description": "NextJS + React",
+      "price": 5,
+      "type": "income",
+      "category": "programação",
+      "createdAt": "2025-07-23T14:45:57.640Z"
+    },
+    {
+      "id": "195a",
+      "description": "Vite",
+      "price": 1000,
+      "type": "outcome",
+      "category": "Programação foda",
+      "createdAt": "2025-07-23T14:55:54.515Z"
+    }
+  ]
+}
